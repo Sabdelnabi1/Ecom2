@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecom3-dev-231804-authRole",
+      "UnauthRoleArn": "arn:aws:iam::264194121306:role/amplify-ecom3-dev-231804-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::264194121306:role/amplify-ecom3-dev-231804-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ecom3-dev-231804-deployment",
+      "UnauthRoleName": "amplify-ecom3-dev-231804-unauthRole",
+      "StackName": "amplify-ecom3-dev-231804",
+      "StackId": "arn:aws:cloudformation:us-east-1:264194121306:stack/amplify-ecom3-dev-231804/bb4bacf0-0d5a-11ed-ad1c-129ac3662ce1",
+      "AmplifyAppId": "d7fyz9aadhhg8"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d7fyz9aadhhg8",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "ecom3a5691192": {
+          "deploymentBucketName": "amplify-ecom3-dev-231804-deployment",
+          "s3Key": "amplify-builds/ecom3a5691192-2f4247554a3745735846-build.zip"
+        }
+      }
+    }
+  }
+}

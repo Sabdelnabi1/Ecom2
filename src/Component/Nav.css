@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 120vh;
+    width: 100%;
+    /* background-image: url(sofa-wooden-table-living-room-interior-with-plant-concrete-wall-3d-rendering\ \(1\).jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+}
+
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+
+nav {
+    display: flex;
+    padding: 2px 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}

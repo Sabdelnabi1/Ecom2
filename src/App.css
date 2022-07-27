@@ -1,38 +1,129 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #979298;
+}
+
+header {
+  background-color: #4225a2;
+  padding-top: 0px;
+}
+
+nav {
+  display: flex;
+  background-color: #e6e8e578;
+  justify-content: space-between;
+  padding: 1rem;
+  top: 0;
+  height: 40px;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-left: 50%;
+  list-style: none;
+}
+
+
+
+nav li a {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #000908;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav li a {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #031c44;
+  align-items: center;
+}
+
+
+.grid-Container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 5%;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.gridpack-item {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  height: 400px;
+  width: 600px;
+  padding-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button {
+  margin-top: 20%;
+  background-color: rgb(205, 212, 219);
+  height: 40px;
+  width: 80px;
+  border-radius: 15px;
+}
+
+.social {
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (max-width: 375px) {
+  nav ul {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    list-style: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  nav li a {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    padding: 1rem;
+    font-size: 25px;
+    color: black;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  p {
+    text-align: center;
+    font-family: Didot, serif;
   }
+
+  .grid-Container {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+    grid-gap: 10px;
+    justify-items: center;
+  }
+
+  .gridpack-item {
+    font-size: 25px;
+  }
+
+  img {
+    height: 70px;
+    width: 70px;
+    padding-top: 15px;
+  }
+
+
+
+  button {
+    background-color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+  }
+
 }
